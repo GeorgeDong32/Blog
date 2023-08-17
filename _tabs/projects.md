@@ -7,11 +7,11 @@ order: 4
 - ## GoodPass Project
   一个开源的密码管家项目，包含以下子项目：
   - ### GoodPass GUI
-      <img src="../assets/img/GoodPass-GUI-bg1.png">
+      <img src="/assets/img/GoodPass-GUI-bg1.png">
 
       [前往项目](https://github.com/GeorgeDong32/GoodPass-GUI)
   - ### GoodPass CLI
-      <img src="../assets/img/GoodPass-CLI-bg1.png">
+      <img src="/assets/img/GoodPass-CLI-bg1.png">
       
     [前往项目](https://github.com/GeorgeDong32/GoodPass-GUI)
 - ## SYSU Learn
