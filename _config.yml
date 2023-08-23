@@ -26,7 +26,8 @@ tagline: GeorgeDong32的个人博客   # it will display as the sub-title
 description: >-                        # used by seo meta and the atom feed
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-
+url: https://georgedong32.github.io/Blog
+url: https://blog.georgedong32.cn
 
 github:
   username: GeorgeDong32             # change to your github username
