@@ -9,9 +9,14 @@
           <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
           {% if site.data.locales[site.lang].copyright.brief %}
           <span data-toggle="tooltip" data-placement="top"
-            title="{{ site.data.locales[site.lang].copyright.verbose }}">{{ site.data.locales[site.lang].copyright.brief }}</span>
+            title="{{ site.data.locales[site.lang].copyright.verbose }}">{{ site.data.locales[site.lang].copyright.brief
+            }}</span>
           {% endif %}
         </p>
+      </div>
+
+      <div class="ICP">
+        <a href="http://www.beian.miit.gov.cn" target="_blank" rel="noopener">粤ICP 备2023105219号</a>
       </div>
 
       <div class="footer-right">
@@ -26,8 +31,8 @@
           {%- endcapture -%}
 
           {{ site.data.locales[site.lang].meta
-            | default: 'Using the :PLATFORM theme :THEME.'
-            | replace: ':PLATFORM', _platform | replace: ':THEME', _theme
+          | default: 'Using the :PLATFORM theme :THEME.'
+          | replace: ':PLATFORM', _platform | replace: ':THEME', _theme
           }}
         </p>
       </div>
